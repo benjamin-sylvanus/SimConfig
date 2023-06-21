@@ -16,6 +16,8 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core Gui OpenGL Charts Ne
 find_package(OpenGL REQUIRED)
 find_package(GLUT REQUIRED)
 
+
+
 set(PROJECT_SOURCES
         main.cpp
         mainwindow.cpp
@@ -39,8 +41,7 @@ set(PROJECT_SOURCES
         glwidget.h
         glwidget.cpp
         datatemplate.h
-        datatemplate.cpp
-)
+        datatemplate.cpp)
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(SimConfig

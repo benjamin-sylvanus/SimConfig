@@ -20,9 +20,6 @@ Tree::Tree(const Tree &tree)
     this->ui  = tree.ui;
 }
 
-
-
-
 QTreeWidget * Tree::getTreeWidget()
 {
     return ui->treeWidget;

@@ -22,8 +22,6 @@ void GLWidget::initializeGL() {
     glLoadIdentity();
     glTranslatef(0.0, 0.0, -5.0);
     initLights();
-
-
     glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST);
     glHint(GL_LINE_SMOOTH_HINT, GL_NICEST);
     glHint(GL_POLYGON_SMOOTH_HINT, GL_NICEST);
