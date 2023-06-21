@@ -236,7 +236,6 @@ void RunGLWIDGET(QTextBrowser *browser,QString path)
     if (!process->waitForStarted()) {
         // Handle error here
     }
-
     else
     {
 
